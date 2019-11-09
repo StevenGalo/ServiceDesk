@@ -1,0 +1,31 @@
+package proyectofinal;
+
+public class RastrearTickets extends RollUsuario{
+
+    int idRastrear;
+    String descripcionRastrear;
+
+    @Override
+    public String toString() {
+        return super.toString() + "\n\nRastrearTickets:" + "\nID Rastrear= " + idRastrear + "\nDescripcion Rastrear= " + descripcionRastrear;
+    }
+
+    public RastrearTickets(int idRastrear, String descripcionRastrear, int rollID, String descripcion, String tipo) {
+        super(rollID, descripcion, tipo);
+        this.idRastrear = idRastrear;
+        this.descripcionRastrear = descripcionRastrear;
+    }
+
+    public static void anadirRastreo() {
+
+    }
+
+    public static void editarRastreo() {
+
+    }
+
+    public static void buscarRastreo() {
+
+    }
+
+}
